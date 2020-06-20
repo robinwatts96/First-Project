@@ -93,7 +93,7 @@ header .profile-image:hover {
   color: #F7EBDF;
   border-radius: 10px;
 }
-.card {
+.hobbies-card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -126,13 +126,57 @@ header .profile-image:hover {
   border-radius: 10px;
   transition: all .5s; 
 }
+.education-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #F7F5F0;
+  border-bottom: 8px solid #95A6AB;
+  border-right: 8px solid #9B95AB;
+  border-radius: 10px;
+  transition: all .5s; 
+}
+.about-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #F7F5F0;
+  border-bottom: 8px solid #95A6AB;
+  border-right: 8px solid #9B95AB;
+  border-radius: 10px;
+  transition: all .5s; 
+}
 .hobbies-callum {
 padding: 5px;
 }
 .callum-text {
   text-align: center;
 }
-.card:hover {
+.background-card:hover {
+  border-color: #E0D7F7;
+  
+  transform: scale(1.10);
+}
+
+.goals-card:hover {
+  border-color: #E0D7F7;
+  
+  transform: scale(1.10);
+}
+
+.hobbies-card:hover {
+  border-color: #E0D7F7;
+  
+  transform: scale(1.10);
+}
+.education-card:hover {
+  border-color: #E0D7F7;
+  
+  transform: scale(1.10);
+}
+.about-card:hover {
   border-color: #E0D7F7;
   
   transform: scale(1.10);
@@ -252,6 +296,14 @@ a.social:hover {
 .header-2 {
   text-align: center;
   background: url('images/bimm2.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.header-3 {
+  text-align: center;
+  background: url('images/about.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
