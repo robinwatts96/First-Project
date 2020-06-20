@@ -25,7 +25,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.nav-bar {
   width: 100%;
   background: #95A6AB;
   min-height: 30px;
@@ -104,7 +104,29 @@ header .profile-image:hover {
   border-radius: 10px;
   transition: all .5s; 
 }
-.callum {
+.background-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #F7F5F0;
+  border-bottom: 8px solid #95A6AB;
+  border-right: 8px solid #9B95AB;
+  border-radius: 10px;
+  transition: all .5s; 
+}
+.goals-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #F7F5F0;
+  border-bottom: 8px solid #95A6AB;
+  border-right: 8px solid #9B95AB;
+  border-radius: 10px;
+  transition: all .5s; 
+}
+.hobbies-callum {
 padding: 5px;
 }
 .callum-text {
